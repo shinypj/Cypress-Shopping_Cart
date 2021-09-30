@@ -12,8 +12,7 @@ export class shoppingCart {
   static proceedToCheckoutButton = "a.btn.btn-default.button.button-medium";
   static productTotalPrice = "#total_price_container";
 
-  //Open URL 'http://automationpractice.com/index.php'
-  
+  //Open URL 'http://automationpractice.com/index.php'  
   constructor() {
     this.url = "http://automationpractice.com/index.php";
   }
