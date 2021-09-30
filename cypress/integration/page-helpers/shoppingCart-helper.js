@@ -1,8 +1,5 @@
 export class shoppingCart {
-  constructor() {
-    this.url = "http://automationpractice.com/index.php";
-  }
-
+  
   //Web Elements
   static searchBox = "#search_query_top";
   static searchIcon = "button.btn.btn-default.button-search";
@@ -16,6 +13,11 @@ export class shoppingCart {
   static productTotalPrice = "#total_price_container";
 
   //Open URL 'http://automationpractice.com/index.php'
+  
+  constructor() {
+    this.url = "http://automationpractice.com/index.php";
+  }
+  
   visit() {
     cy.visit(this.url);
     cy.viewport(1920, 1080);
